@@ -1,0 +1,39 @@
+/*Define your CSS here*/
+
+body{
+	
+	border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+  align-items: center;
+}
+.container{
+	position: absolute;
+   bottom:100px;
+}
+.myClass{
+   filter: grayscale(100%);
+
+} 
+
+.myClass2{
+	filter: invert(100%);
+}
+
+.myClass3{
+ 	filter: saturate(7);
+}
+
+.myClass4{
+ 	filter: hue-rotate(180deg);
+}
+
+
+p{
+	font-family: 'Fredoka One', cursive;
+	font-size: 30px;
+	text-align: center;
+
+
+}
